@@ -47,7 +47,6 @@ export const useFetch = (url, options) => {
         if(!wait){
           setLoading(false);
         }
-        console.log(e)
         throw e;
       }
     };
